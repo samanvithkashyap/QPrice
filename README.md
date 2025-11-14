@@ -12,6 +12,15 @@ This project was our team's submission for the "Quantum Option Pricing" challeng
 
 The entire experiment is contained within the `QPrice.ipynb` Jupyter Notebook. It trains a Variational Quantum Regressor (VQR) and compares its performance against a classical Random Forest model on the same dataset.
 
+## Technologies Used
+
+This project was built using the following core libraries:
+* **Qiskit:** For building and simulating the VQR model.
+* **Scikit-learn:** For data preprocessing and training the classical Random Forest model.
+* **yfinance:** For downloading SPY options data.
+* **Pandas & NumPy:** For data manipulation.
+* **Matplotlib:** For plotting the results.
+  
 ## How to Run
 
 The easiest way to run this project and see the results for yourself is to open it directly in Google Colab.
@@ -50,6 +59,13 @@ This comparison is the core finding of our project.
 
 This was a team research project submitted for the Qiskit Fall Fest. The model and findings are experimental and reflect the work done during that event. It's intended to serve as a proof-of-concept and a learning exercise.
 
+---
+### Future Work
+
+Given more time, we would have loved to explore:
+* **Different Ansatzes:** Trying more complex ansatz (circuit) designs for the VQR.
+* **More Features:** Adding other features like the risk-free interest rate or different volatility measures.
+* **Other QML Models:** Comparing the VQR against other models like a Quantum-enhanced SVM.
 
 ## Authors
 
