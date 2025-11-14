@@ -46,12 +46,6 @@ This comparison is the core finding of our project.
 
 ---
 
-### Example Prediction (VQR)
-
-Here is an example of the VQR model pricing a specific call option:
-* **Features:** Moneyness=0.9524, TTM=0.3751, IV=0.2545
-* **Result:** Predicted Option Price: $83.72
-
 ## Project Status
 
 This was a team research project submitted for the Qiskit Fall Fest. The model and findings are experimental and reflect the work done during that event. It's intended to serve as a proof-of-concept and a learning exercise.
