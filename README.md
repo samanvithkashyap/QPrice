@@ -20,7 +20,7 @@ This project was built using the following core libraries:
 * **yfinance:** For downloading SPY options data.
 * **Pandas & NumPy:** For data manipulation.
 * **Matplotlib:** For plotting the results.
-  
+ 
 ## How to Run
 
 The easiest way to run this project and see the results for yourself is to open it directly in Google Colab.
@@ -55,6 +55,18 @@ This comparison is the core finding of our project.
 
 ---
 
+### Context Within QML Research
+
+This project serves as a practical exploration of several open problems in the field of Quantum Machine Learning:
+
+* **Finding Practical Applications:** We directly address the high-priority challenge of finding "real-life, practical problems" for QML by applying our model to the complex, real-world task of options pricing.
+
+* **Benchmarking QML Algorithms:** The question "How can we benchmark QML algorithms?" is a major one. Our project answers this directly. By comparing the VQR (R²: 0.629) against a powerful classical Random Forest (R²: 0.9865), we provide a clear performance benchmark for this specific task and model architecture.
+
+* **Encountering Barren Plateaus:** Our VQR's flat training convergence plot is a textbook example of the **"Barren Plateau"** problem. It demonstrates this major research hurdle in a practical setting, showing the difficulty of optimizing variational quantum circuits.
+
+---
+
 ## Project Status
 
 This was a team research project submitted for the Qiskit Fall Fest. The model and findings are experimental and reflect the work done during that event. It's intended to serve as a proof-of-concept and a learning exercise.
@@ -63,7 +75,7 @@ This was a team research project submitted for the Qiskit Fall Fest. The model a
 ### Future Work
 
 Given more time, we would have loved to explore:
-* **Different Ansatzes:** Trying more complex ansatz (circuit) designs for the VQR.
+* **Different Ansatzes:** Trying more complex ansatz (circuit) designs for the VQR to potentially mitigate the barren plateau problem.
 * **More Features:** Adding other features like the risk-free interest rate or different volatility measures.
 * **Other QML Models:** Comparing the VQR against other models like a Quantum-enhanced SVM.
 
